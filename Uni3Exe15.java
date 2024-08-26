@@ -6,7 +6,6 @@ Exemplo, se for submetido o número 384, o programa deverá exibir:
 
 3 centena(s)  8 dezena(s) 4 unidade(s)   */
 
-
 import java.util.Scanner;
 public class Uni3Exe15 {
     public static void main(String[] args) {
@@ -18,12 +17,8 @@ public class Uni3Exe15 {
         int centena = num3 / 100; 
         int dezena = (num3%100)/10;
         int unidade = ((num3%100)%10);
-
         //SAIDA 
-        System.out.print(centena+" Centena(s) "+dezena+(" Dezenas(s) ")+unidade+(" Unidade(s) "));
-
-      
-        
+        System.out.print(centena+" Centena(s) "+dezena+(" Dezenas(s) ")+unidade+(" Unidade(s) "));      
         teclado.close();
     }
 }
